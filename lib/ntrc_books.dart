@@ -177,7 +177,7 @@ class _homeState extends State<home> {
                               builder: (context) => const home()));
                     },
                     child: const Text(
-                      "class seven",
+                      "সপ্তম শ্রেণি",
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 25,
