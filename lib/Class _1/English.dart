@@ -11,6 +11,7 @@ class English extends StatefulWidget {
 
 class _EnglishState extends State<English> {
   PdfViewerController pdfViewerController = PdfViewerController();
+  PdfTextSearchResult _searchResult = PdfTextSearchResult();
   double zoom = 0.0;
   TextEditingController controller = TextEditingController();
   int pageNo = 0;
@@ -22,10 +23,8 @@ class _EnglishState extends State<English> {
             title: const Text('Enter page No to jump'),
             content: TextField(
               controller: controller,
-              keyboardType: TextInputType.number,
-              inputFormatters: <TextInputFormatter>[
-                FilteringTextInputFormatter.digitsOnly
-              ],
+              keyboardType: TextInputType.text,
+              inputFormatters: const <TextInputFormatter>[],
               onChanged: (val) {
                 pageNo = int.parse(val);
               },
@@ -45,6 +44,12 @@ class _EnglishState extends State<English> {
             ],
           );
         });
+  }
+
+  @override
+  void initState() {
+    _searchResult = PdfTextSearchResult();
+    super.initState();
   }
 
   @override
@@ -69,7 +74,7 @@ class _EnglishState extends State<English> {
               onPressed: () {
                 jumpTo(context);
               },
-              icon: const Icon(Icons.search))
+              icon: const Icon(Icons.search)),
         ],
       ),
       body: SfPdfViewer.asset(

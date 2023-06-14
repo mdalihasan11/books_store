@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:new_view/Class%20_1/class_one.dart';
 import 'package:new_view/Class_2/class_two.dart';
+import 'package:new_view/class_3/class_%20three.dart';
 
 // ignore: camel_case_types
 class home extends StatefulWidget {
@@ -16,8 +17,8 @@ class _homeState extends State<home> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-            body: Padding(
-      padding: const EdgeInsets.only(top: 100.0, left: 15.0),
+            body: Container(
+      padding: const EdgeInsets.only(left: 15, top: 150),
       child: Column(children: [
         Row(
           children: [
@@ -76,7 +77,7 @@ class _homeState extends State<home> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => const home()));
+                              builder: (context) => const class_three()));
                     },
                     child: const Text(
                       "তৃতীয় শ্রেণি",
