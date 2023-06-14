@@ -1,6 +1,6 @@
 name: new_view
 description: A new Flutter project.
-publish_to:
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 environment:
   sdk: '>=2.19.4 <3.0.0'
@@ -29,7 +29,23 @@ flutter:
     - asset/class_1/Bangla.pdf
     - asset/class_1/Englis.pdf
     - asset/class_1/Math.pdf
-    - asset/Al_quran.pdf
+    - asset/class_2/bangla.PNG
+    - asset/class_2/english.PNG
+    - asset/class_2/math.PNG
+    - asset/class_2/Bangla2.pdf
+    - asset/class_2/English2.pdf
+    - asset/class_2/Math2.pdf
+    - asset/class_3/Bangla3.PNG
+    - asset/class_3/English3.PNG
+    - asset/class_3/Math3.PNG
+    - asset/class_3/Science3.PNG
+    - asset/class_3/Islam3.PNG
+    - asset/class_3/BGS3.PNG
+    - asset/class_3/Buddho3.PNG
+    - asset/class_3/Cristian3.PNG
+    - asset/nctb.png
+
+
   #   - images/a_dot_ham.jpeg
 
   # fonts:

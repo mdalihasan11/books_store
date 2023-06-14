@@ -20,63 +20,66 @@ class _class_oneState extends State<class_one> {
           backgroundColor: Colors.deepPurple,
         ),
         body: Padding(
-          padding: const EdgeInsets.only(top: 150.0, left: 15.0),
-          child: Column(children: [
-            Row(
+          padding: const EdgeInsets.only(top: 250.0, left: 15.0),
+          child: ListView(
+              scrollDirection: Axis.horizontal,
+              padding: EdgeInsets.all(8),
               children: [
-                SizedBox(
-                    height: 150,
-                    width: 100,
-                    child: ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.deepPurple,
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const Bangla()));
-                      },
-                      child: Image.asset('asset/class_1/bangla.PNG',
-                          width: 300, height: 150, fit: BoxFit.fill),
-                    )),
-                const SizedBox(width: 15),
-                SizedBox(
-                    height: 150,
-                    width: 100,
-                    child: ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.deepPurple,
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const English()));
-                      },
-                      child: Image.asset('asset/class_1/English.PNG',
-                          width: 300, height: 150, fit: BoxFit.fill),
-                    )),
-                const SizedBox(width: 15),
-                SizedBox(
-                    height: 150,
-                    width: 100,
-                    child: ElevatedButton(
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.deepPurple,
-                      ),
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const Math()));
-                      },
-                      child: Image.asset('asset/class_1/Math.PNG',
-                          width: 300, height: 150, fit: BoxFit.fill),
-                    )),
-              ],
-            ),
-          ]),
+                Row(
+                  children: [
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Bangla()));
+                          },
+                          child: Image.asset('asset/class_1/bangla.PNG',
+                              width: 300, height: 150, fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const English()));
+                          },
+                          child: Image.asset('asset/class_1/English.PNG',
+                              width: 300, height: 150, fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Math()));
+                          },
+                          child: Image.asset('asset/class_1/Math.PNG',
+                              width: 300, height: 150, fit: BoxFit.fill),
+                        )),
+                  ],
+                ),
+              ]),
         ));
   }
 }
