@@ -11,7 +11,7 @@ class Bangla extends StatefulWidget {
 
 class _BanglaState extends State<Bangla> {
   PdfViewerController pdfViewerController = PdfViewerController();
-  final PdfTextSearchResult _searchResult = PdfTextSearchResult();
+  PdfTextSearchResult _searchResult = PdfTextSearchResult();
   double zoom = 0.0;
   TextEditingController controller = TextEditingController();
   int pageNo = 0;
