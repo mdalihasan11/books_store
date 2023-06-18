@@ -3,14 +3,14 @@ import 'package:new_view/Class%20_1/English.dart';
 import 'package:new_view/Class%20_1/bangla.dart';
 import 'package:new_view/Class%20_1/math.dart';
 
-class class_four extends StatefulWidget {
-  const class_four({Key? key}) : super(key: key);
+class class_nine_ten extends StatefulWidget {
+  const class_nine_ten({Key? key}) : super(key: key);
 
   @override
-  State<class_four> createState() => _class_fourState();
+  State<class_nine_ten> createState() => _class_nine_tenState();
 }
 
-class _class_fourState extends State<class_four> {
+class _class_nine_tenState extends State<class_nine_ten> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

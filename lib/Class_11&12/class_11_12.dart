@@ -3,20 +3,20 @@ import 'package:new_view/Class%20_1/English.dart';
 import 'package:new_view/Class%20_1/bangla.dart';
 import 'package:new_view/Class%20_1/math.dart';
 
-class class_four extends StatefulWidget {
-  const class_four({Key? key}) : super(key: key);
+class class_ele_tw extends StatefulWidget {
+  const class_ele_tw({Key? key}) : super(key: key);
 
   @override
-  State<class_four> createState() => _class_fourState();
+  State<class_ele_tw> createState() => _class_ele_twState();
 }
 
-class _class_fourState extends State<class_four> {
+class _class_ele_twState extends State<class_ele_tw> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: const Text("চতুর্থ শ্রেণি"),
+          title: const Text("একাদশ-দ্বাদশ শ্রেণি"),
           backgroundColor: Colors.deepPurple,
         ),
         body: Padding(

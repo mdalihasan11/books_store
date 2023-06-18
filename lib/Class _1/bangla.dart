@@ -56,14 +56,13 @@ class _BanglaState extends State<Bangla> {
         centerTitle: true,
         title: const Text('আমার বাংলা বই'),
         backgroundColor: Colors.deepPurple,
-
-        // actions: [
-        //   IconButton(
-        //       onPressed: () {
-        //         jumpTo(context);
-        //       },
-        //       icon: const Icon(Icons.search))
-        // ],
+        actions: [
+          IconButton(
+              onPressed: () {
+                jumpTo(context);
+              },
+              icon: const Icon(Icons.search))
+        ],
       ),
       body: SfPdfViewer.asset('asset/class_1/Bangla.pdf',
           scrollDirection: PdfScrollDirection.horizontal),

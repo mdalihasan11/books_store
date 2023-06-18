@@ -65,6 +65,7 @@ class _MathState extends State<Math> {
       body: SfPdfViewer.asset(
         'asset/class_1/Math.pdf',
         controller: pdfViewerController,
+        scrollDirection: PdfScrollDirection.horizontal,
       ),
     );
   }

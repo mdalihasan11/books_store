@@ -62,16 +62,6 @@ class _EnglishState extends State<English> {
         actions: [
           IconButton(
               onPressed: () {
-                pdfViewerController.previousPage();
-              },
-              icon: const Icon(Icons.arrow_back_ios)),
-          IconButton(
-              onPressed: () {
-                pdfViewerController.nextPage();
-              },
-              icon: const Icon(Icons.arrow_forward_ios)),
-          IconButton(
-              onPressed: () {
                 jumpTo(context);
               },
               icon: const Icon(Icons.search)),
@@ -80,6 +70,7 @@ class _EnglishState extends State<English> {
       body: SfPdfViewer.asset(
         'asset/class_1/Englis.pdf',
         controller: pdfViewerController,
+        scrollDirection: PdfScrollDirection.horizontal,
       ),
     );
   }

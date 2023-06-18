@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:new_view/nctb_books.dart';
+import 'package:new_view/primary.dart';
+import 'package:new_view/stepstone.dart';
 
 class home extends StatefulWidget {
   const home({super.key});
@@ -24,10 +25,8 @@ class _homeState extends State<home> {
             children: [
               GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const class_type()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const steps()));
                 },
                 child: CircleAvatar(
                   radius: 90,
@@ -38,10 +37,8 @@ class _homeState extends State<home> {
               const SizedBox(width: 15),
               GestureDetector(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const class_type()));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const primary()));
                 },
                 child: CircleAvatar(
                   radius: 90,
