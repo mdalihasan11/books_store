@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:new_view/Class_11&12/class_11_12.dart';
+import 'package:new_view/Bangla_Version/Class_11&12/class_11_12.dart';
 
 // ignore: camel_case_types
 class heigher extends StatefulWidget {

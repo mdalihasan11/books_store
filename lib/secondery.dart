@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:new_view/Class_6/class_six.dart';
-import 'package:new_view/Class_7/class_seven.dart';
-import 'package:new_view/Class_8/class_eight.dart';
+import 'package:new_view/Bangla_Version/Class_6/class_six.dart';
+import 'package:new_view/Bangla_Version/Class_7/class_seven.dart';
+import 'package:new_view/Bangla_Version/Class_8/class_eight.dart';
 
 // ignore: camel_case_types
 class secondery extends StatefulWidget {

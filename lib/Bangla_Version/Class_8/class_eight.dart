@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:new_view/Class%20_1/English.dart';
-import 'package:new_view/Class%20_1/bangla.dart';
-import 'package:new_view/Class%20_1/math.dart';
+import 'package:new_view/Bangla_Version/Class%20_1/English.dart';
+import 'package:new_view/Bangla_Version/Class%20_1/bangla.dart';
+import 'package:new_view/Bangla_Version/Class%20_1/math.dart';
 
-class class_seven extends StatefulWidget {
-  const class_seven({Key? key}) : super(key: key);
+class class_eight extends StatefulWidget {
+  const class_eight({Key? key}) : super(key: key);
 
   @override
-  State<class_seven> createState() => _class_sevenState();
+  State<class_eight> createState() => _class_eightState();
 }
 
-class _class_sevenState extends State<class_seven> {
+class _class_eightState extends State<class_eight> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
