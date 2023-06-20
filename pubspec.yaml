@@ -1,7 +1,7 @@
 name: new_view
 description: A new Flutter project.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-version: 1.0.0+1
+publish_to: 'none'
+version: 1.0.1+1
 environment:
   sdk: '>=2.19.4 <3.0.0'
 
@@ -12,11 +12,15 @@ dependencies:
   syncfusion_flutter_pdfviewer: ^20.2.44-beta
   http: ^0.13.6
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
+
+
+
+flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
@@ -55,6 +59,7 @@ flutter:
     - asset/class_4/islam4.PNG
     - asset/class_4/math4.PNG
     - asset/class_4/science4.PNG
+
 
 
 

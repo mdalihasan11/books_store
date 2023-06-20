@@ -24,131 +24,122 @@ class _primaryState extends State<primary> {
               centerTitle: true,
               backgroundColor: Colors.deepPurple,
             ),
-            body: Container(
-              padding: const EdgeInsets.only(left: 50),
-              child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Row(
-                      children: [
-                        SizedBox(
-                            height: 150,
-                            width: 100,
-                            child: ElevatedButton(
-                                style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.deepPurple,
-                                ),
-                                onPressed: () {
-                                  Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) =>
-                                              const class_one()));
-                                },
-                                child: const Text(
-                                  "প্রথম শ্রেণি",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ))),
-                        const SizedBox(width: 15),
-                        SizedBox(
-                            height: 150,
-                            width: 100,
-                            child: ElevatedButton(
-                                style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.deepPurple,
-                                ),
-                                onPressed: () {
-                                  Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) =>
-                                              const class_two()));
-                                },
-                                child: const Text(
-                                  "দ্বিতীয় শ্রেণি",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ))),
-                        const SizedBox(width: 15),
-                        SizedBox(
-                            height: 150,
-                            width: 100,
-                            child: ElevatedButton(
-                                style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.deepPurple,
-                                ),
-                                onPressed: () {
-                                  Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) =>
-                                              const class_three()));
-                                },
-                                child: const Text(
-                                  "তৃতীয় শ্রেণি",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ))),
-                        const SizedBox(width: 15),
-                        SizedBox(
-                            height: 150,
-                            width: 100,
-                            child: ElevatedButton(
-                                style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.deepPurple,
-                                ),
-                                onPressed: () {
-                                  Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) =>
-                                              const class_four()));
-                                },
-                                child: const Text(
-                                  "চতুর্থ শ্রেণি",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ))),
-                        const SizedBox(width: 15),
-                        SizedBox(
-                            height: 150,
-                            width: 100,
-                            child: ElevatedButton(
-                                style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.deepPurple,
-                                ),
-                                onPressed: () {
-                                  Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) =>
-                                              const class_five()));
-                                },
-                                child: const Text(
-                                  "পঞ্চম শ্রেণি",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ))),
-                      ],
-                    ),
-                  ]),
+            body: Center(
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  SizedBox(
+                      height: 150,
+                      width: 100,
+                      child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const class_one()));
+                          },
+                          child: const Text(
+                            "প্রথম শ্রেণি",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 25,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ))),
+                  const SizedBox(width: 15),
+                  SizedBox(
+                      height: 150,
+                      width: 100,
+                      child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const class_two()));
+                          },
+                          child: const Text(
+                            "দ্বিতীয় শ্রেণি",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 25,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ))),
+                  const SizedBox(width: 15),
+                  SizedBox(
+                      height: 150,
+                      width: 100,
+                      child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const class_three()));
+                          },
+                          child: const Text(
+                            "তৃতীয় শ্রেণি",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 25,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ))),
+                  const SizedBox(width: 15),
+                  SizedBox(
+                      height: 150,
+                      width: 100,
+                      child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const class_four()));
+                          },
+                          child: const Text(
+                            "চতুর্থ শ্রেণি",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 25,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ))),
+                  const SizedBox(width: 15),
+                  SizedBox(
+                      height: 150,
+                      width: 100,
+                      child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const class_five()));
+                          },
+                          child: const Text(
+                            "পঞ্চম শ্রেণি",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 25,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ))),
+                ],
+              ),
             )));
   }
 }

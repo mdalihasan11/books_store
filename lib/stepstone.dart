@@ -14,60 +14,57 @@ class _stepsState extends State<steps> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.deepPurple,
-          title: const Text('স্তর'),
-          centerTitle: true,
-        ),
-        body: Container(
-          padding: const EdgeInsets.only(left: 50),
-          child: Center(
-              child: Row(
-            children: [
-              GestureDetector(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const primary()));
-                },
-                child: const CircleAvatar(
-                  radius: 90,
-                  backgroundColor: Colors.deepPurple,
-                  child: Text(
-                    'প্রাথমিক স্তর',
-                    style: TextStyle(fontSize: 25, color: Colors.white),
-                  ),
-                ),
+      appBar: AppBar(
+        backgroundColor: Colors.deepPurple,
+        title: const Text('স্তর'),
+        centerTitle: true,
+      ),
+      body: Center(
+          child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          GestureDetector(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const primary()));
+            },
+            child: const CircleAvatar(
+              radius: 70,
+              backgroundColor: Colors.deepPurple,
+              child: Text(
+                'প্রাথমিক\nস্তর',
+                style: TextStyle(fontSize: 25, color: Colors.white),
               ),
-              const SizedBox(width: 15),
-              GestureDetector(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const secondery()));
-                },
-                child: const CircleAvatar(
-                  radius: 90,
-                  backgroundColor: Colors.deepPurple,
-                  child: Text('মাধ্যমিক স্তর',
-                      style: TextStyle(fontSize: 25, color: Colors.white)),
-                ),
-              ),
-              const SizedBox(width: 15),
-              GestureDetector(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const heigher()));
-                },
-                child: const CircleAvatar(
-                  radius: 90,
-                  backgroundColor: Colors.deepPurple,
-                  child: Text('উচ্চ মাধ্যমিক স্তর',
-                      style: TextStyle(fontSize: 25, color: Colors.white)),
-                ),
-              ),
-            ],
-          )),
-        ));
+            ),
+          ),
+          const SizedBox(width: 15),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const secondery()));
+            },
+            child: const CircleAvatar(
+              radius: 70,
+              backgroundColor: Colors.deepPurple,
+              child: Text('মাধ্যমিক\nস্তর',
+                  style: TextStyle(fontSize: 25, color: Colors.white)),
+            ),
+          ),
+          const SizedBox(width: 15),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const heigher()));
+            },
+            child: const CircleAvatar(
+              radius: 70,
+              backgroundColor: Colors.deepPurple,
+              child: Text(' উচ্চ \n মাধ্যমিক \n স্তর',
+                  style: TextStyle(fontSize: 25, color: Colors.white)),
+            ),
+          ),
+        ],
+      )),
+    );
   }
 }

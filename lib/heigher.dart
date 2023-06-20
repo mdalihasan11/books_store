@@ -15,44 +15,58 @@ class _heigherState extends State<heigher> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-            appBar: AppBar(
-              title: const Text('উচ্চ মাধ্যমিক স্তর'),
-              centerTitle: true,
-              backgroundColor: Colors.deepPurple,
+      appBar: AppBar(
+        title: const Text('উচ্চ মাধ্যমিক স্তর'),
+        centerTitle: true,
+        backgroundColor: Colors.deepPurple,
+      ),
+      body: Center(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // GestureDetector(
+            //     child: ElevatedButton(
+            //         style: ElevatedButton.styleFrom(
+            //           backgroundColor: Colors.deepPurple,
+            //         ),
+            //         onPressed: () {
+            //           Navigator.push(
+            //               context,
+            //               MaterialPageRoute(
+            //                   builder: (context) => const class_ele_tw()));
+            //         },
+            //         child: const Text(
+            //           "একাদশ-দ্বাদশ শ্রেণি",
+            //           style: TextStyle(
+            //             color: Colors.white,
+            //             fontSize: 25,
+            //             fontWeight: FontWeight.bold,
+            //           ),
+            //         ))),
+            GestureDetector(
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const class_ele_tw()));
+              },
+              child: CircleAvatar(
+                radius: 70,
+                backgroundColor: Colors.deepPurple,
+                child: Text(
+                  "একাদশ\n& দ্বাদশ\nশ্রেণি",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 25,
+                    fontWeight: FontWeight.bold,
+                    inherit: true,
+                  ),
+                ),
+              ),
             ),
-            body: Container(
-              padding: const EdgeInsets.only(left: 50),
-              child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Row(
-                      children: [
-                        SizedBox(
-                            height: 150,
-                            width: 150,
-                            child: ElevatedButton(
-                                style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.deepPurple,
-                                ),
-                                onPressed: () {
-                                  Navigator.push(
-                                      context,
-                                      MaterialPageRoute(
-                                          builder: (context) =>
-                                              const class_ele_tw()));
-                                },
-                                child: const Text(
-                                  "একাদশ-দ্বাদশ শ্রেণি",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ))),
-                      ],
-                    ),
-                  ]),
-            )));
+          ],
+        ),
+      ),
+    ));
   }
 }

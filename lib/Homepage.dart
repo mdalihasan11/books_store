@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
                 context, MaterialPageRoute(builder: (context) => const home()));
           },
           child: CircleAvatar(
-            radius: 150,
+            radius: 130,
             backgroundColor: Colors.deepPurple,
             child: Image.asset('asset/nctb.png'),
           ),
