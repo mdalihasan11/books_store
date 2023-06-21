@@ -27,38 +27,39 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - asset/class_1/bangla.PNG
-    - asset/class_1/English.PNG
-    - asset/class_1/Math.PNG
-    - asset/class_1/Bangla.pdf
-    - asset/class_1/Englis.pdf
-    - asset/class_1/Math.pdf
-    - asset/class_2/bangla.PNG
-    - asset/class_2/english.PNG
-    - asset/class_2/math.PNG
-    - asset/class_2/Bangla2.pdf
-    - asset/class_2/English2.pdf
-    - asset/class_2/Math2.pdf
-    - asset/class_3/Bangla3.PNG
-    - asset/class_3/English3.PNG
-    - asset/class_3/Math3.PNG
-    - asset/class_3/Science3.PNG
-    - asset/class_3/Islam3.PNG
-    - asset/class_3/BGS3.PNG
-    - asset/class_3/Buddho3.PNG
-    - asset/class_3/Cristian3.PNG
+    - asset/bangla_version/class_1/bangla.PNG
+    - asset/bangla_version/class_1/English.PNG
+    - asset/bangla_version/class_1/Math.PNG
+    - asset/bangla_version/class_1/Bangla.pdf
+    - asset/bangla_version/class_1/Englis.pdf
+    - asset/bangla_version/class_1/Math.pdf
+    - asset/bangla_version/class_2/bangla.PNG
+    - asset/bangla_version/class_2/english.PNG
+    - asset/bangla_version/class_2/math.PNG
+    - asset/bangla_version/class_2/Bangla2.pdf
+    - asset/bangla_version/class_2/English2.pdf
+    - asset/bangla_version/class_2/Math2.pdf
+    - asset/bangla_version/class_3/Bangla3.PNG
+    - asset/bangla_version/class_3/English3.PNG
+    - asset/bangla_version/class_3/Math3.PNG
+    - asset/bangla_version/class_3/Science3.PNG
+    - asset/bangla_version/class_3/Islam3.PNG
+    - asset/bangla_version/class_3/BGS3.PNG
+    - asset/bangla_version/class_3/Buddho3.PNG
+    - asset/bangla_version/class_3/Cristian3.PNG
     - asset/nctb.png
     - asset/bangla.PNG
     - asset/english.PNG
-    - asset/class_4/bangla4.PNG
-    - asset/class_4/bgs4.PNG
-    - asset/class_4/bodhhu4.PNG
-    - asset/class_4/cristan.PNG
-    - asset/class_4/english4.PNG
-    - asset/class_4/hindhu.PNG
-    - asset/class_4/islam4.PNG
-    - asset/class_4/math4.PNG
-    - asset/class_4/science4.PNG
+    - asset/icon.png
+    - asset/bangla_version/class_4/bangla4.PNG
+    - asset/bangla_version/class_4/bgs4.PNG
+    - asset/bangla_version/class_4/bodhhu4.PNG
+    - asset/bangla_version/class_4/cristan.PNG
+    - asset/bangla_version/class_4/english4.PNG
+    - asset/bangla_version/class_4/hindhu.PNG
+    - asset/bangla_version/class_4/islam4.PNG
+    - asset/bangla_version/class_4/math4.PNG
+    - asset/bangla_version/class_4/science4.PNG
 
 
 

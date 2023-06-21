@@ -40,8 +40,11 @@ class _class_eightState extends State<class_eight> {
                                 MaterialPageRoute(
                                     builder: (context) => const Bangla()));
                           },
-                          child: Image.asset('asset/class_4/bangla4.PNG',
-                              width: 300, height: 150, fit: BoxFit.fill),
+                          child: Image.asset(
+                              'asset/bangla_version/class_4/bangla4.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
                         )),
                     const SizedBox(width: 15),
                     SizedBox(
@@ -57,8 +60,11 @@ class _class_eightState extends State<class_eight> {
                                 MaterialPageRoute(
                                     builder: (context) => const English()));
                           },
-                          child: Image.asset('asset/class_4/english4.PNG',
-                              width: 300, height: 150, fit: BoxFit.fill),
+                          child: Image.asset(
+                              'asset/bangla_version/class_4/english4.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
                         )),
                     const SizedBox(width: 15),
                     SizedBox(
@@ -74,8 +80,11 @@ class _class_eightState extends State<class_eight> {
                                 MaterialPageRoute(
                                     builder: (context) => const Math()));
                           },
-                          child: Image.asset('asset/class_4/math4.PNG',
-                              width: 300, height: 150, fit: BoxFit.fill),
+                          child: Image.asset(
+                              'asset/bangla_version/class_4/math4.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
                         )),
                     const SizedBox(width: 15),
                     SizedBox(
@@ -91,8 +100,11 @@ class _class_eightState extends State<class_eight> {
                                 MaterialPageRoute(
                                     builder: (context) => const Math()));
                           },
-                          child: Image.asset('asset/class_4/science4.PNG',
-                              width: 300, height: 150, fit: BoxFit.fill),
+                          child: Image.asset(
+                              'asset/bangla_version/class_4/science4.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
                         )),
                     const SizedBox(width: 15),
                     SizedBox(
@@ -108,8 +120,11 @@ class _class_eightState extends State<class_eight> {
                                 MaterialPageRoute(
                                     builder: (context) => const Math()));
                           },
-                          child: Image.asset('asset/class_4/bgs4.PNG',
-                              width: 300, height: 150, fit: BoxFit.fill),
+                          child: Image.asset(
+                              'asset/bangla_version/class_4/bgs4.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
                         )),
                     const SizedBox(width: 15),
                     SizedBox(
@@ -125,8 +140,11 @@ class _class_eightState extends State<class_eight> {
                                 MaterialPageRoute(
                                     builder: (context) => const Math()));
                           },
-                          child: Image.asset('asset/class_4/islam4.PNG',
-                              width: 300, height: 150, fit: BoxFit.fill),
+                          child: Image.asset(
+                              'asset/bangla_version/class_4/islam4.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
                         )),
                     const SizedBox(width: 15),
                     SizedBox(
@@ -142,8 +160,11 @@ class _class_eightState extends State<class_eight> {
                                 MaterialPageRoute(
                                     builder: (context) => const Math()));
                           },
-                          child: Image.asset('asset/class_4/bodhhu4.PNG',
-                              width: 300, height: 150, fit: BoxFit.fill),
+                          child: Image.asset(
+                              'asset/bangla_version/class_4/bodhhu4.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
                         )),
                     const SizedBox(width: 15),
                     SizedBox(
@@ -159,8 +180,11 @@ class _class_eightState extends State<class_eight> {
                                 MaterialPageRoute(
                                     builder: (context) => const Math()));
                           },
-                          child: Image.asset('asset/class_4/cristan.PNG',
-                              width: 300, height: 150, fit: BoxFit.fill),
+                          child: Image.asset(
+                              'asset/bangla_version/class_4/cristan.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
                         )),
                   ],
                 ),

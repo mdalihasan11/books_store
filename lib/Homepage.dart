@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
           child: CircleAvatar(
             radius: 130,
             backgroundColor: Colors.deepPurple,
-            child: Image.asset('asset/nctb.png'),
+            child: Image.asset('asset/icon.png'),
           ),
         ),
       ),

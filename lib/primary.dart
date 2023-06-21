@@ -24,222 +24,140 @@ class _primaryState extends State<primary> {
               centerTitle: true,
               backgroundColor: Colors.deepPurple,
             ),
-            body: Center(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const class_one()));
-                    },
-                    child: CircleAvatar(
-                      radius: 70,
-                      backgroundColor: Colors.deepPurple,
-                      child: const Text(
-                        " প্রথম \n শ্রেণি",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold,
+            body: ListView(scrollDirection: Axis.horizontal, children: [
+              Center(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const class_one()));
+                      },
+                      child: CircleAvatar(
+                        radius: 70,
+                        backgroundColor: Colors.deepPurple,
+                        child: const Text(
+                          " প্রথম \n শ্রেণি",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                  // SizedBox(
-                  //     height: 150,
-                  //     width: 100,
-                  //     child: ElevatedButton(
-                  //         style: ElevatedButton.styleFrom(
-                  //           backgroundColor: Colors.deepPurple,
-                  //         ),
-                  //         onPressed: () {
-                  //           Navigator.push(
-                  //               context,
-                  //               MaterialPageRoute(
-                  //                   builder: (context) => const class_one()));
-                  //         },
-                  //         child: const Text(
-                  //           "প্রথম শ্রেণি",
-                  //           style: TextStyle(
-                  //             color: Colors.white,
-                  //             fontSize: 25,
-                  //             fontWeight: FontWeight.bold,
-                  //           ),
-                  //         ))),
-                  const SizedBox(width: 15),
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const class_two()));
-                    },
-                    child: CircleAvatar(
-                      radius: 70,
-                      backgroundColor: Colors.deepPurple,
-                      child: const Text(
-                        " দ্বিতীয় \n শ্রেণি",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold,
+                    const SizedBox(width: 15),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const class_two()));
+                      },
+                      child: CircleAvatar(
+                        radius: 70,
+                        backgroundColor: Colors.deepPurple,
+                        child: const Text(
+                          " দ্বিতীয় \n শ্রেণি",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                  // SizedBox(
-                  //     height: 150,
-                  //     width: 100,
-                  //     child: ElevatedButton(
-                  //         style: ElevatedButton.styleFrom(
-                  //           backgroundColor: Colors.deepPurple,
-                  //         ),
-                  //         onPressed: () {
-                  //           Navigator.push(
-                  //               context,
-                  //               MaterialPageRoute(
-                  //                   builder: (context) => const class_two()));
-                  //         },
-                  //         child: const Text(
-                  //           "দ্বিতীয় শ্রেণি",
-                  //           style: TextStyle(
-                  //             color: Colors.white,
-                  //             fontSize: 25,
-                  //             fontWeight: FontWeight.bold,
-                  //           ),
-                  //         ))),
-                  const SizedBox(width: 15),
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const class_three()));
-                    },
-                    child: CircleAvatar(
-                      radius: 70,
-                      backgroundColor: Colors.deepPurple,
-                      child: const Text(
-                        " তৃতীয় \n শ্রেণি",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold,
+                    const SizedBox(width: 15),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const class_three()));
+                      },
+                      child: CircleAvatar(
+                        radius: 70,
+                        backgroundColor: Colors.deepPurple,
+                        child: const Text(
+                          " তৃতীয় \n শ্রেণি",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                  // SizedBox(
-                  //     height: 150,
-                  //     width: 100,
-                  //     child: ElevatedButton(
-                  //         style: ElevatedButton.styleFrom(
-                  //           backgroundColor: Colors.deepPurple,
-                  //         ),
-                  //         onPressed: () {
-                  //           Navigator.push(
-                  //               context,
-                  //               MaterialPageRoute(
-                  //                   builder: (context) => const class_three()));
-                  //         },
-                  //         child: const Text(
-                  //           "তৃতীয় শ্রেণি",
-                  //           style: TextStyle(
-                  //             color: Colors.white,
-                  //             fontSize: 25,
-                  //             fontWeight: FontWeight.bold,
-                  //           ),
-                  //         ))),
-                  const SizedBox(width: 15),
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const class_four()));
-                    },
-                    child: CircleAvatar(
-                      radius: 70,
-                      backgroundColor: Colors.deepPurple,
-                      child: const Text(
-                        "চতুর্থ \n শ্রেণি",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold,
+                    const SizedBox(width: 15),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const class_four()));
+                      },
+                      child: CircleAvatar(
+                        radius: 70,
+                        backgroundColor: Colors.deepPurple,
+                        child: const Text(
+                          "চতুর্থ \n শ্রেণি",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                  // SizedBox(
-                  //     height: 150,
-                  //     width: 100,
-                  //     child: ElevatedButton(
-                  //         style: ElevatedButton.styleFrom(
-                  //           backgroundColor: Colors.deepPurple,
-                  //         ),
-                  //         onPressed: () {
-                  //           Navigator.push(
-                  //               context,
-                  //               MaterialPageRoute(
-                  //                   builder: (context) => const class_four()));
-                  //         },
-                  //         child: const Text(
-                  //           "চতুর্থ শ্রেণি",
-                  //           style: TextStyle(
-                  //             color: Colors.white,
-                  //             fontSize: 25,
-                  //             fontWeight: FontWeight.bold,
-                  //           ),
-                  //         ))),
-                  const SizedBox(width: 15),
-                  GestureDetector(
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const class_five()));
-                    },
-                    child: CircleAvatar(
-                      radius: 70,
-                      backgroundColor: Colors.deepPurple,
-                      child: const Text(
-                        "পঞ্চম \n শ্রেণি",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 25,
-                          fontWeight: FontWeight.bold,
+                    const SizedBox(width: 15),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const class_five()));
+                      },
+                      child: CircleAvatar(
+                        radius: 70,
+                        backgroundColor: Colors.deepPurple,
+                        child: const Text(
+                          "পঞ্চম \n শ্রেণি",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ),
-                  ),
-                  // SizedBox(
-                  //     height: 150,
-                  //     width: 100,
-                  //     child: ElevatedButton(
-                  //         style: ElevatedButton.styleFrom(
-                  //           backgroundColor: Colors.deepPurple,
-                  //         ),
-                  //         onPressed: () {
-                  //           Navigator.push(
-                  //               context,
-                  //               MaterialPageRoute(
-                  //                   builder: (context) => const class_five()));
-                  //         },
-                  //         child: const Text(
-                  //           "পঞ্চম শ্রেণি",
-                  //           style: TextStyle(
-                  //             color: Colors.white,
-                  //             fontSize: 25,
-                  //             fontWeight: FontWeight.bold,
-                  //           ),
-                  //         ))),
-                ],
-              ),
-            )));
+                    const SizedBox(width: 15),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const class_five()));
+                      },
+                      child: CircleAvatar(
+                        radius: 70,
+                        backgroundColor: Colors.deepPurple,
+                        child: const Text(
+                          "পঞ্চম \n শ্রেণি",
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              )
+            ])));
   }
 }

@@ -24,25 +24,6 @@ class _heigherState extends State<heigher> {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // GestureDetector(
-            //     child: ElevatedButton(
-            //         style: ElevatedButton.styleFrom(
-            //           backgroundColor: Colors.deepPurple,
-            //         ),
-            //         onPressed: () {
-            //           Navigator.push(
-            //               context,
-            //               MaterialPageRoute(
-            //                   builder: (context) => const class_ele_tw()));
-            //         },
-            //         child: const Text(
-            //           "একাদশ-দ্বাদশ শ্রেণি",
-            //           style: TextStyle(
-            //             color: Colors.white,
-            //             fontSize: 25,
-            //             fontWeight: FontWeight.bold,
-            //           ),
-            //         ))),
             GestureDetector(
               onTap: () {
                 Navigator.push(

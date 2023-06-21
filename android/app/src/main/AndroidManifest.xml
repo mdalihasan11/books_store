@@ -2,8 +2,7 @@
     package="com.example.new_view">
    <application
         android:label="new_view"
-        android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:name="${applicationName}">
         <activity
             android:name=".MainActivity"
             android:exported="true"
