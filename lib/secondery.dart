@@ -110,48 +110,48 @@ class _seconderyState extends State<secondery> {
                         ),
                       ),
                     ),
-                    const SizedBox(width: 15),
-                    GestureDetector(
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const class_eight()));
-                      },
-                      child: CircleAvatar(
-                        radius: 70,
-                        backgroundColor: Colors.deepPurple,
-                        child: const Text(
-                          " নবম\n& দশম \n শ্রেণি",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 25,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 15),
-                    GestureDetector(
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const class_eight()));
-                      },
-                      child: CircleAvatar(
-                        radius: 70,
-                        backgroundColor: Colors.deepPurple,
-                        child: const Text(
-                          " নবম\n& দশম \n শ্রেণি",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 25,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
+                    // const SizedBox(width: 15),
+                    // GestureDetector(
+                    //   onTap: () {
+                    //     Navigator.push(
+                    //         context,
+                    //         MaterialPageRoute(
+                    //             builder: (context) => const class_eight()));
+                    //   },
+                    //   child: CircleAvatar(
+                    //     radius: 70,
+                    //     backgroundColor: Colors.deepPurple,
+                    //     child: const Text(
+                    //       " নবম\n& দশম \n শ্রেণি",
+                    //       style: TextStyle(
+                    //         color: Colors.white,
+                    //         fontSize: 25,
+                    //         fontWeight: FontWeight.bold,
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ),
+                    // const SizedBox(width: 15),
+                    // GestureDetector(
+                    //   onTap: () {
+                    //     Navigator.push(
+                    //         context,
+                    //         MaterialPageRoute(
+                    //             builder: (context) => const class_eight()));
+                    //   },
+                    //   child: CircleAvatar(
+                    //     radius: 70,
+                    //     backgroundColor: Colors.deepPurple,
+                    //     child: const Text(
+                    //       " নবম\n& দশম \n শ্রেণি",
+                    //       style: TextStyle(
+                    //         color: Colors.white,
+                    //         fontSize: 25,
+                    //         fontWeight: FontWeight.bold,
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ),
                   ],
                 ),
               )

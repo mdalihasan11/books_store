@@ -135,26 +135,26 @@ class _primaryState extends State<primary> {
                       ),
                     ),
                     const SizedBox(width: 15),
-                    GestureDetector(
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const class_five()));
-                      },
-                      child: CircleAvatar(
-                        radius: 70,
-                        backgroundColor: Colors.deepPurple,
-                        child: const Text(
-                          "পঞ্চম \n শ্রেণি",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 25,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
+                    // GestureDetector(
+                    //   onTap: () {
+                    //     Navigator.push(
+                    //         context,
+                    //         MaterialPageRoute(
+                    //             builder: (context) => const class_five()));
+                    //   },
+                    //   child: CircleAvatar(
+                    //     radius: 70,
+                    //     backgroundColor: Colors.deepPurple,
+                    //     child: const Text(
+                    //       "পঞ্চম \n শ্রেণি",
+                    //       style: TextStyle(
+                    //         color: Colors.white,
+                    //         fontSize: 25,
+                    //         fontWeight: FontWeight.bold,
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ),
                   ],
                 ),
               )

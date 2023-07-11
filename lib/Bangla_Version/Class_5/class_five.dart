@@ -16,7 +16,7 @@ class _class_fiveState extends State<class_five> {
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: const Text("চতুর্থ শ্রেণি"),
+          title: const Text("পঞ্চম শ্রেণি"),
           backgroundColor: Colors.deepPurple,
         ),
         body: Padding(
@@ -41,7 +41,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Bangla()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/bangla4.PNG',
+                              'asset/bangla_version/class_5/1.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -61,7 +61,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const English()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/english4.PNG',
+                              'asset/bangla_version/class_5/2.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -81,7 +81,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/math4.PNG',
+                              'asset/bangla_version/class_5/3.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -101,7 +101,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/science4.PNG',
+                              'asset/bangla_version/class_5/4.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -121,7 +121,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/bgs4.PNG',
+                              'asset/bangla_version/class_5/5.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -141,7 +141,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/islam4.PNG',
+                              'asset/bangla_version/class_5/6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -161,7 +161,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/bodhhu4.PNG',
+                              'asset/bangla_version/class_5/7.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -181,7 +181,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/cristan.PNG',
+                              'asset/bangla_version/class_5/8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
