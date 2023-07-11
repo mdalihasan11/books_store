@@ -16,7 +16,7 @@ class _class_eightState extends State<class_eight> {
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: const Text("চতুর্থ শ্রেণি"),
+          title: const Text("অষ্টম শ্রেণি"),
           backgroundColor: Colors.deepPurple,
         ),
         body: Padding(
@@ -41,7 +41,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Bangla()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/bangla4.PNG',
+                              'asset/bangla_version/class_8/1.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -61,7 +61,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const English()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/english4.PNG',
+                              'asset/bangla_version/class_8/2.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -81,7 +81,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/math4.PNG',
+                              'asset/bangla_version/class_8/3.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -101,7 +101,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/science4.PNG',
+                              'asset/bangla_version/class_8/4.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -121,7 +121,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/bgs4.PNG',
+                              'asset/bangla_version/class_8/5.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -141,7 +141,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/islam4.PNG',
+                              'asset/bangla_version/class_8/6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -161,7 +161,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/bodhhu4.PNG',
+                              'asset/bangla_version/class_8/7.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -181,7 +181,227 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_4/cristan.PNG',
+                              'asset/bangla_version/class_8/9.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Math()));
+                          },
+                          child: Image.asset(
+                              'asset/bangla_version/class_8/10.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Math()));
+                          },
+                          child: Image.asset(
+                              'asset/bangla_version/class_8/11.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Math()));
+                          },
+                          child: Image.asset(
+                              'asset/bangla_version/class_8/12.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Math()));
+                          },
+                          child: Image.asset(
+                              'asset/bangla_version/class_8/13.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Math()));
+                          },
+                          child: Image.asset(
+                              'asset/bangla_version/class_8/14.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Math()));
+                          },
+                          child: Image.asset(
+                              'asset/bangla_version/class_8/15.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Math()));
+                          },
+                          child: Image.asset(
+                              'asset/bangla_version/class_8/16.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Math()));
+                          },
+                          child: Image.asset(
+                              'asset/bangla_version/class_8/17.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Math()));
+                          },
+                          child: Image.asset(
+                              'asset/bangla_version/class_8/18.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Math()));
+                          },
+                          child: Image.asset(
+                              'asset/bangla_version/class_8/19.PNG',
+                              width: 300,
+                              height: 150,
+                              fit: BoxFit.fill),
+                        )),
+                    const SizedBox(width: 15),
+                    SizedBox(
+                        height: 150,
+                        width: 100,
+                        child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.deepPurple,
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => const Math()));
+                          },
+                          child: Image.asset(
+                              'asset/bangla_version/class_8/20.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),

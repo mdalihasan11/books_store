@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:new_view/Bangla_Version/Class_6/class_six.dart';
 import 'package:new_view/Bangla_Version/Class_7/class_seven.dart';
 import 'package:new_view/Bangla_Version/Class_8/class_eight.dart';
+import 'package:new_view/Bangla_Version/Class_9&10/class_nine&ten.dart';
 
 // ignore: camel_case_types
 class secondery extends StatefulWidget {
@@ -95,7 +96,7 @@ class _seconderyState extends State<secondery> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const class_eight()));
+                                builder: (context) => const class_nine_ten()));
                       },
                       child: CircleAvatar(
                         radius: 70,
@@ -110,48 +111,48 @@ class _seconderyState extends State<secondery> {
                         ),
                       ),
                     ),
-                    const SizedBox(width: 15),
-                    GestureDetector(
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const class_eight()));
-                      },
-                      child: CircleAvatar(
-                        radius: 70,
-                        backgroundColor: Colors.deepPurple,
-                        child: const Text(
-                          " নবম\n& দশম \n শ্রেণি",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 25,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 15),
-                    GestureDetector(
-                      onTap: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const class_eight()));
-                      },
-                      child: CircleAvatar(
-                        radius: 70,
-                        backgroundColor: Colors.deepPurple,
-                        child: const Text(
-                          " নবম\n& দশম \n শ্রেণি",
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 25,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
+                    // const SizedBox(width: 15),
+                    // GestureDetector(
+                    //   onTap: () {
+                    //     Navigator.push(
+                    //         context,
+                    //         MaterialPageRoute(
+                    //             builder: (context) => const class_eight()));
+                    //   },
+                    //   child: CircleAvatar(
+                    //     radius: 70,
+                    //     backgroundColor: Colors.deepPurple,
+                    //     child: const Text(
+                    //       " নবম\n& দশম \n শ্রেণি",
+                    //       style: TextStyle(
+                    //         color: Colors.white,
+                    //         fontSize: 25,
+                    //         fontWeight: FontWeight.bold,
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ),
+                    // const SizedBox(width: 15),
+                    // GestureDetector(
+                    //   onTap: () {
+                    //     Navigator.push(
+                    //         context,
+                    //         MaterialPageRoute(
+                    //             builder: (context) => const class_eight()));
+                    //   },
+                    //   child: CircleAvatar(
+                    //     radius: 70,
+                    //     backgroundColor: Colors.deepPurple,
+                    //     child: const Text(
+                    //       " নবম\n& দশম \n শ্রেণি",
+                    //       style: TextStyle(
+                    //         color: Colors.white,
+                    //         fontSize: 25,
+                    //         fontWeight: FontWeight.bold,
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ),
                   ],
                 ),
               )
