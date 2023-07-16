@@ -41,7 +41,7 @@ class _class_sixState extends State<class_six> {
                                     builder: (context) => const Bangla()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_6/2.PNG',
+                              'asset/bangla_version/class_6/bangla6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -61,7 +61,7 @@ class _class_sixState extends State<class_six> {
                                     builder: (context) => const Bangla()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_6/1.PNG',
+                              'asset/bangla_version/class_6/english6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -81,7 +81,7 @@ class _class_sixState extends State<class_six> {
                                     builder: (context) => const Bangla()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_6/3.PNG',
+                              'asset/bangla_version/class_6/budhu6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -101,7 +101,7 @@ class _class_sixState extends State<class_six> {
                                     builder: (context) => const English()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_6/4.PNG',
+                              'asset/bangla_version/class_6/cristan6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -121,7 +121,7 @@ class _class_sixState extends State<class_six> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_6/5.PNG',
+                              'asset/bangla_version/class_6/hindhu6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -141,7 +141,7 @@ class _class_sixState extends State<class_six> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_6/6.PNG',
+                              'asset/bangla_version/class_6/islam6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -161,7 +161,7 @@ class _class_sixState extends State<class_six> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_6/7.PNG',
+                              'asset/bangla_version/class_6/math6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -181,7 +181,7 @@ class _class_sixState extends State<class_six> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_6/8.PNG',
+                              'asset/bangla_version/class_6/biggan6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -201,7 +201,7 @@ class _class_sixState extends State<class_six> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_6/9.PNG',
+                              'asset/bangla_version/class_6/biggan6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -221,7 +221,7 @@ class _class_sixState extends State<class_six> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_6/1.PNG',
+                              'asset/bangla_version/class_6/etihas6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -241,7 +241,7 @@ class _class_sixState extends State<class_six> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_6/10.PNG',
+                              'asset/bangla_version/class_6/etihas6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -261,7 +261,7 @@ class _class_sixState extends State<class_six> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_6/11.PNG',
+                              'asset/bangla_version/class_6/cristan6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),

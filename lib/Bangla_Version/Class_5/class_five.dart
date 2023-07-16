@@ -41,7 +41,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Bangla()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_5/1.PNG',
+                              'asset/bangla_version/class_5/bangla5.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -61,7 +61,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const English()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_5/2.PNG',
+                              'asset/bangla_version/class_5/bgs5.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -81,7 +81,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_5/3.PNG',
+                              'asset/bangla_version/class_5/buddho5.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -101,7 +101,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_5/4.PNG',
+                              'asset/bangla_version/class_5/cristan5.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -121,7 +121,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_5/5.PNG',
+                              'asset/bangla_version/class_5/english5.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -141,7 +141,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_5/6.PNG',
+                              'asset/bangla_version/class_5/hindu5.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -161,7 +161,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_5/7.PNG',
+                              'asset/bangla_version/class_5/islam5.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -181,7 +181,7 @@ class _class_fiveState extends State<class_five> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_5/8.PNG',
+                              'asset/bangla_version/class_5/math5.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),

@@ -41,7 +41,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Bangla()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/1.PNG',
+                              'asset/bangla_version/class_8/anado8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -61,7 +61,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const English()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/2.PNG',
+                              'asset/bangla_version/class_8/arabik8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -81,7 +81,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/3.PNG',
+                              'asset/bangla_version/class_8/bangla8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -101,7 +101,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/4.PNG',
+                              'asset/bangla_version/class_8/banglag8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -121,7 +121,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/5.PNG',
+                              'asset/bangla_version/class_8/biggan8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -141,7 +141,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/6.PNG',
+                              'asset/bangla_version/class_8/bodhu8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -161,7 +161,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/7.PNG',
+                              'asset/bangla_version/class_8/charukaru8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -181,7 +181,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/9.PNG',
+                              'asset/bangla_version/class_8/english8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -201,7 +201,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/10.PNG',
+                              'asset/bangla_version/class_8/englishg8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -221,7 +221,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/11.PNG',
+                              'asset/bangla_version/class_8/hindu8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -241,7 +241,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/12.PNG',
+                              'asset/bangla_version/class_8/ict8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -261,7 +261,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/13.PNG',
+                              'asset/bangla_version/class_8/islam8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -281,7 +281,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/14.PNG',
+                              'asset/bangla_version/class_8/krisi8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -301,7 +301,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/15.PNG',
+                              'asset/bangla_version/class_8/kristan8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -321,7 +321,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/16.PNG',
+                              'asset/bangla_version/class_8/math8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -341,7 +341,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/17.PNG',
+                              'asset/bangla_version/class_8/sasto8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -361,7 +361,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/18.PNG',
+                              'asset/bangla_version/class_8/somaj8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -381,7 +381,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/19.PNG',
+                              'asset/bangla_version/class_8/songiscrity8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -401,7 +401,7 @@ class _class_eightState extends State<class_eight> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_8/20.PNG',
+                              'asset/bangla_version/class_8/songit8.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),

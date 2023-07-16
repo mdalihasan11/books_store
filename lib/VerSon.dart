@@ -90,7 +90,7 @@ class _homeState extends State<home> {
         //   child: CircleAvatar(
         //     radius: 90,
         //     backgroundColor: Colors.deepPurple,
-        //     child: Image.asset('asset/english.PNG'),
+        //     child: Image.asset('asset/english6.PNG'),
         //   ),
         // )),
         );

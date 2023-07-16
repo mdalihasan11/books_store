@@ -41,7 +41,7 @@ class _class_oneState extends State<class_one> {
                                     builder: (context) => const Bangla()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_1/bangla.PNG',
+                              'asset/bangla_version/class_1/bangla6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),

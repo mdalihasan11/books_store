@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:new_view/Bangla_Version/Class%20_1/English.dart';
 import 'package:new_view/Bangla_Version/Class%20_1/bangla.dart';
 import 'package:new_view/Bangla_Version/Class%20_1/math.dart';
+import 'package:new_view/Bangla_Version/Class_4/english4.dart';
 
 class class_four extends StatefulWidget {
   const class_four({Key? key}) : super(key: key);
@@ -58,7 +58,7 @@ class _class_fourState extends State<class_four> {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => const English()));
+                                    builder: (context) => const english4()));
                           },
                           child: Image.asset(
                               'asset/bangla_version/class_4/english4.PNG',

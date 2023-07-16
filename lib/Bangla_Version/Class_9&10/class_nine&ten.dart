@@ -41,7 +41,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Bangla()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/1.PNG',
+                              'asset/bangla_version/class_9&10/banglag9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -61,7 +61,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const English()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/1.PNG',
+                              'asset/bangla_version/class_9&10/banglasohopat.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -81,7 +81,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/2.PNG',
+                              'asset/bangla_version/class_9&10/budhu9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -101,7 +101,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/3.PNG',
+                              'asset/bangla_version/class_9&10/carierr9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -121,7 +121,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/4.PNG',
+                              'asset/bangla_version/class_9&10/charukaru9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -141,7 +141,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/5.PNG',
+                              'asset/bangla_version/class_9&10/cristan9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -161,7 +161,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/5.PNG',
+                              'asset/bangla_version/class_9&10/etiihas9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -181,7 +181,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/6.PNG',
+                              'asset/bangla_version/class_9&10/garosto9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -201,7 +201,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/7.PNG',
+                              'asset/bangla_version/class_9&10/hisabbiggan9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -221,7 +221,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/8.PNG',
+                              'asset/bangla_version/class_9&10/jibbiggan9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -241,7 +241,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/9.PNG',
+                              'asset/bangla_version/class_9&10/krici9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -261,7 +261,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/10.PNG',
+                              'asset/bangla_version/class_9&10/poli9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -281,7 +281,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/11.PNG',
+                              'asset/bangla_version/class_9&10/proniti9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -301,7 +301,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/12.PNG',
+                              'asset/bangla_version/class_9&10/rosayon9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -321,7 +321,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/13.PNG',
+                              'asset/bangla_version/class_9&10/saririk9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -341,7 +341,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/14.PNG',
+                              'asset/bangla_version/class_9&10/somaj9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -361,7 +361,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/15.PNG',
+                              'asset/bangla_version/class_9&10/songit.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -381,7 +381,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/16.PNG',
+                              'asset/bangla_version/class_9&10/vugol9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -401,7 +401,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/17.PNG',
+                              'asset/bangla_version/class_9&10/carierr9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -421,7 +421,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/18.PNG',
+                              'asset/bangla_version/class_9&10/charukaru9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -441,7 +441,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/19.PNG',
+                              'asset/bangla_version/class_9&10/arabiks9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -461,7 +461,7 @@ class _class_nine_tenState extends State<class_nine_ten> {
                                     builder: (context) => const Math()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_9&10/20.PNG',
+                              'asset/bangla_version/class_9&10/saririk9.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),

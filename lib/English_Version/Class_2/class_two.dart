@@ -41,7 +41,7 @@ class _class_twoState extends State<class_two> {
                                     builder: (context) => const Bangla2()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_2/bangla.PNG',
+                              'asset/bangla_version/class_2/bangla6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
@@ -61,7 +61,7 @@ class _class_twoState extends State<class_two> {
                                     builder: (context) => const english2()));
                           },
                           child: Image.asset(
-                              'asset/bangla_version/class_2/english.PNG',
+                              'asset/bangla_version/class_2/english6.PNG',
                               width: 300,
                               height: 150,
                               fit: BoxFit.fill),
